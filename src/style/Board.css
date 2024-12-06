@@ -1,0 +1,55 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #57b7ff, #3a88d0);
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.calendar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.calendar-row {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  margin-bottom: 10px;
+}
+
+.calendar-cell {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.calendar-cell img.special-icon {
+  position: absolute;
+  width: 60px;
+  height: 70px;
+}
+
+.calendar-cell.white {
+  background: white;
+}
+
+.calendar-cell.green {
+  background: #339a9a;
+  color: white;
+}
+
+.calendar-cell.special {
+  border: 3px solid gold;
+}

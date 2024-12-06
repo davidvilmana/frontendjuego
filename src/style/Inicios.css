@@ -1,0 +1,163 @@
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #006d8d;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+
+}
+
+.inicio-title {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contenido-container {
+  width: 100%;
+  max-width: 80rem;
+  padding: 1rem;
+}
+
+
+.personajes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: 80rem;
+  justify-content: center;
+ 
+}
+
+.personajes-grid.md {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.personaje-card {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.personaje-card.selected {
+  background-color: #38a169;
+  color: white;
+}
+
+.personaje-card:hover {
+  background-color: #e5e7eb;
+}
+
+
+.personaje-img {
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 0.75rem;
+  border-radius: 9999px;
+}
+
+.personaje-title {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.personaje-title.selected {
+  color: white;
+}
+
+.personaje-title.inactive {
+  color: #374151;
+}
+
+
+.comenzar-juego {
+  margin-top: 2.5rem;
+  background-color: #1d4ed8;
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.comenzar-juego:hover {
+  background-color: #1e3a8a;
+}
+
+
+.personaje-card {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.personaje-card.locked {
+  cursor: not-allowed;
+}
+
+
+
+.personaje-img.locked {
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.lock-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botones-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.comenzar-juego {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.comenzar-juego:hover {
+  background-color: #1e3a8a;
+}

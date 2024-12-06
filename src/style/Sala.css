@@ -1,0 +1,158 @@
+.sala-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start; 
+    padding: 20px;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.sala-title {
+    font-size: 1rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.avatar-title {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e2bd19;
+}
+
+.sala-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+    gap: 380px;
+}
+
+.sala-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    align-self: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sala-button {
+    background-color: #1d4ed8;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.sala-button:hover {
+    background-color: #1e3a8a;
+}
+
+.sala-link-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #1d4ed8;
+}
+
+.sala-link {
+    word-wrap: break-word;
+    flex: 1;
+    font-size: 0.9rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.link-input {
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    box-sizing: border-box;
+    width: 10%;
+}
+
+.link-input:focus {
+    border-color: #0056b3;
+    background-color: #e6f3ff;
+}
+
+.copy-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.copy-button:hover {
+    color: #ffb74d;
+}
+.spann{
+    color: green;
+    font-weight: bold;
+}
+
+.sala-jugadores {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.sala-jugadores h4 {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.jugador-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.jugador-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
+
+.jugador-nombre {
+    font-size: 1rem;
+    color: #333;
+}
+
+.sala-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

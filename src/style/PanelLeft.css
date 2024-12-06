@@ -1,0 +1,68 @@
+.panel-left {
+  width: 16rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: calc(100vh - 70px);
+  background: linear-gradient(to bottom, #3a8ddf50, #1e3b7281);
+  color: white;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.user-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.user-role {
+  margin: 0;
+  font-size: 0.9em;
+  color: #d4f1ff;
+}
+
+.participants-list {
+  margin-top: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.participants-list h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.participants-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.participant-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.participant-item span {
+  font-size: 0.8rem;
+}
+
+.user-section span{
+  color: rgb(30, 231, 30);
+}
