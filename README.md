@@ -21,8 +21,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd my-app
+   git clone https://github.com/davidvilmana/frontendjuego.git
+   cd frontendjuego
    
 
 2. Instala las dependencias:
