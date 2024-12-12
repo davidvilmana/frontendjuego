@@ -35,3 +35,10 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
    ```bash
     http://localhost:5173/
 ---
+
+## Equipos de Trabajo
+
+- **David Vilcabana Manayay** Fullstack - [LinkedIn](https://www.linkedin.com/in/david-vilcabana-740343236/)
+- **Austin Erick Calapuja Ttito** Frontend - [GitHub](https://github.com/ErickCTT)
+- **Richard Stip Jhunior Leon Alejandro** Frontend - [GitHub]()
+- **Lucero Karla Arriaran Pómez** Frontend - [GitHub]()
