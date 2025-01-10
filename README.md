@@ -1,7 +1,7 @@
 # Proyecto React + Vita  - Juego Doctums
 
 ## Descripción
-Este proyecto es un **juego interactivo** desarrollado con React. Incluye un sistema de puntos, premios y una interfaz fácil de usar. Está diseñado para ser un proyecto pequeño, fácil de entender y extender.
+Este proyecto es un **juego de negocio** desarrollado con React. Incluye un sistema de puntos, premios y una interfaz fácil de usar. Está diseñado para ser un proyecto pequeño, fácil de entender y extender.
 
 ## Requisitos del Sistema
 - **Node.js** (versión mínima: 14.0.0)
